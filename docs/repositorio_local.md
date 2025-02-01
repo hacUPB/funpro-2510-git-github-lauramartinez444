@@ -13,8 +13,6 @@ Descripción: Cambia el directorio de trabajo actual al nuevo directorio creado.
 Descripción: Inicializa un nuevo repositorio Git en el directorio actual, creando una carpeta oculta llamada .git que almacena toda la información del repositorio.
 Comprobación del Estado del Repositorio
 
-![alt text](<../images/algunos errores.PNG>)
-
 #### Ver el estado del repositorio:
 **Comando: git status**
 Descripción: Muestra el estado actual del directorio de trabajo y del área de preparación (staging area). Indica si hay archivos sin seguimiento, cambios pendientes o si todo está limpio.
