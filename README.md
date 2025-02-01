@@ -15,8 +15,8 @@ Obtener la URL del Repositorio: Ve al repositorio en GitHub y copia la URL (por 
 
 ## Abrir la Terminal: Utiliza Git Bash o el terminal que prefieras.
 Ejecutar el Comando de Clonación:
-bash
 
+bash
 ```
 git remote add origin
 ```
@@ -25,11 +25,18 @@ git remote add origin
 
 **Este comando crea una copia local del repositorio en tu máquina.**
 Acceder al Directorio Clonado:
+
 bash
+```
 cd nombre-repo
+```
+
 Cambia al directorio del repositorio clonado para comenzar a trabajar en él.
 
 ### Verificación
 Puedes verificar que el repositorio se ha clonado correctamente listando los archivos:
-bash
+
+bash 
+```
 ls
+```
