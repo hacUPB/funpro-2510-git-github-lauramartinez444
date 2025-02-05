@@ -40,3 +40,14 @@ bash
 ```
 ls
 ```
+
+## TABLA DE CONTENIDO
+| NOMBRE                 | DESCRIPCIÓN                                 | ENLACE                                   |
+| ---------------------- | ------------------------------------------- | ---------------------------------------- |
+| Git ignore             | Para que sirve .gitignore.                  | `<a href="introduccion.pdf">Ver más</a>` |
+| src/                   | Código c inicial                            | `<a href="variables.pdf">Ver más</a>`    |
+| docs/                  | Directorios con la información de cada uno. | `<a href="control.pdf">Ver más</a>`      |
+| uso\_consola.md        | Descripción del uso de la consola           | `<a href="funciones.pdf">Ver más</a>`    |
+| repositorio\_remoto.md | Como tener tu propio repositorio remoto     | `<a href="arreglos.pdf">Ver más</a>`     |
+| repositorio\_local.md  | Como iniciar un repositorio local           | `<a href="estructuras.pdf">Ver más</a>`  |
+| Images/                | Donde tengo localizadas todas las imágenes  | \<a href="archivos.pdf">Ver más\</a>     |
