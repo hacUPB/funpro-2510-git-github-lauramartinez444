@@ -44,10 +44,10 @@ ls
 ## TABLA DE CONTENIDO
 | NOMBRE                 | DESCRIPCIÓN                                 | ENLACE                                   |
 | ---------------------- | ------------------------------------------- | ---------------------------------------- |
-| Git ignore             | Para que sirve .gitignore.                  | `<a href="introduccion.pdf">Ver más</a>` |
-| src/                   | Código c inicial                            | `<a href="variables.pdf">Ver más</a>`    |
-| docs/                  | Directorios con la información de cada uno. | `<a href="control.pdf">Ver más</a>`      |
-| uso\_consola.md        | Descripción del uso de la consola           | `<a href="funciones.pdf">Ver más</a>`    |
-| repositorio\_remoto.md | Como tener tu propio repositorio remoto     | `<a href="arreglos.pdf">Ver más</a>`     |
-| repositorio\_local.md  | Como iniciar un repositorio local           | `<a href="estructuras.pdf">Ver más</a>`  |
-| Images/                | Donde tengo localizadas todas las imágenes  | \<a href="archivos.pdf">Ver más\</a>     |
+| Git ignore             | Para que sirve .gitignore.                  | [GIT IGNORE](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)
+| src/                   | Código c inicial                            | [SRC](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)
+| docs/                  | Directorios con la información de cada uno. | [DOCS](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)     |
+| uso\_consola.md        | Descripción del uso de la consola           | [USO CONSOLA](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)|
+| repositorio\_remoto.md | Como tener tu propio repositorio remoto     | [REPOSITORIO REMOTO](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)     |
+| repositorio\_local.md  | Como iniciar un repositorio local           | [REPOSITORIO LOCAL](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)  |
+| Images/                | Donde tengo localizadas todas las imágenes  | [IMAGES](C:\Users\Laura\Documents\PROYECTO CLONADO\funpro-2510-git-github-lauramartinez444\.gitignore)     |
