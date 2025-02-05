@@ -9,8 +9,10 @@ Confirma tu cuenta mediante el correo de verificación.
 ## 2. Crear un repositorio en GitHub
 Inicia sesión en GitHub.
 En la parte superior derecha, haz clic en el icono "+" y selecciona "New repository".
+
 Ingresa un nombre para tu repositorio (por ejemplo: MiProyectoC).
 Opcionalmente, puedes agregar una descripción y elegir si el repositorio será público o privado.
+
 (Si lo colocas privado es necesario pagar)
 No marques ninguna opción de inicialización (README, .gitignore o licencia).
 Haz clic en Create repository.
