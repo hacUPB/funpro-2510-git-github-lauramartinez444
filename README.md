@@ -56,7 +56,7 @@ ls
 
 🖥️🖥️🖥️🖥️🖥️
 
-imagen 
+![alt text](</images/busqueda-de-pc.PNG>)
 
 ## **Partes de un computador**
 Un computador se compone de dos partes esenciales: 
@@ -77,7 +77,7 @@ Sistemas de comunicación que transfieren datos entre los componentes del comput
 
 #### 🖱️🖱️ ⌨️⌨️ **Componentes externos:** 🖱️🖱️ ⌨️⌨️
 
-imagen
+![alt text](</images/upc.PNG>)
 
 *Periféricos de entrada:* 
 Permiten el ingreso de datos al computador (ej. teclado, ratón) 
@@ -88,7 +88,7 @@ Discos que almacenan información, incluyendo el sistema operativo, programas y 
 
 ### **Componentes internos** 
 
-imagen
+![alt text](</images/programacion.PNG>)
 
 *Software:* El software es el conjunto de programas, sistemas operativos y funciones instaladas en el computador que coordinan el hardware para funcionar  Incluye el sistema operativo (SO) y las aplicaciones.
 *Sistema operativo:* Actúa como una interfaz entre el hardware y las aplicaciones, coordinando el acceso a los recursos del computador 
@@ -101,7 +101,7 @@ El sistema operativo gestiona los recursos del hardware y permite que las aplica
 
 🏗️🏗️ **Arquitecturas de un computador:**
 
-imagen
+![alt text](</images/grandes-datos.PNG>)
 
 La arquitectura de un computador se refiere a su diseño conceptual y la estructura operacional fundamental de un sistema de computación 
 Describe cómo están interconectados sus componentes de hardware y cómo interactúan para ejecutar programas.
@@ -112,7 +112,7 @@ Arquitectura RISC (Reduced Instruction Set Computing): RISC utiliza un conjunto 
 
 **Registros:**
 
-imagen
+![alt text](</images/sistema.PNG>)
 
 *Caché:* Memoria de alta velocidad utilizada para almacenar datos a los que se accede con frecuencia, lo que acelera el acceso a la información.
 
@@ -150,6 +150,13 @@ Cuando se ingresa un dato a través del teclado, la señal se envía a la CPU, d
 3. https://es.wikipedia.org/wiki/Computadora
 4. https://concepto.de/computadora/
 
+![alt text](</images/sistema-de-medidas.PNG>)
+![alt text](</images/images.PNG>)
+
+# Mapa Conceptual 
+
+[Link a mí mapa conceptual](Uhttps://cards.algoreducation.com/app/set/67abf9515bdf6708a9540654?sheetId=67abf9555bdf6708a9540667)
+
 
 # LENGUAJES CON SUS TIPOS DE DATOS
 ## Comparación de Tipos de Datos
@@ -183,6 +190,65 @@ Cuando se ingresa un dato a través del teclado, la señal se envía a la CPU, d
 
 *   En Python, el tamaño en bytes de algunos tipos (especialmente `int`, `str`, `list`, `tuple`, `dict`) puede variar significativamente dependiendo de la cantidad de datos almacenados y de la versión de Python que se esté utilizando.
 *   Python gestiona automáticamente la memoria, por lo que no hay una asignación de tamaño fija como en C o Java.
+
+![alt text](</images/pildora-02-captura-2.PNG>)
+
+![alt text](</images/9.PNG>)
+
+# Representación de datos en una computadora:
+
+En esencia, una computadora representa toda la información utilizando el sistema binario, es decir, ceros y unos. Ya sean números, letras, imágenes o sonidos, todo se traduce a patrones de bits. Los números se representan directamente en binario, mientras que las letras se codifican mediante tablas de caracteres como ASCII o Unicode. Las imágenes se dividen en píxeles, y a cada píxel se le asigna un patrón de bits que indica su color. El sonido se digitaliza y se representa mediante diferentes codificaciones binarias. En resumen, la computadora maneja todo como secuencias de bits, y la forma en que interpreta esos bits depende del contexto y del tipo de dato.
+
+# Conclusiones sobre variables binarias:
+
+Cada variable binaria puede representar dos estados (0 o 1). Con N variables binarias, se pueden representar 2^N estados diferentes. Por ejemplo, con 3 bits, se pueden representar 8 estados diferentes (2^3 = 8), y con 4 bits, se pueden representar 16 estados diferentes (2^4 = 16).
+
+Aquí tienes la información para tu ejercicio de cálculo de espacio en memoria y la conclusión:
+
+![alt text](</images/codigo-binario.png>)
+
+5.  **Ejercicio de cálculo de espacio en memoria**
+
+Para calcular el espacio total requerido en memoria, primero debemos determinar el tamaño de cada tipo de dato:
+
+![alt text](</images/ram.png>)
+
+*   **Identificador numérico (entero):** Asumimos un entero de 4 bytes (32 bits).
+*   **Temperatura (punto flotante):** Asumimos un punto flotante de 4 bytes (32 bits).
+*   **Valor lógico (booleano):** 1 byte es suficiente para representar un valor booleano.
+*   **Texto (10 caracteres):** Asumiendo que cada carácter ocupa 1 byte (ASCII), el texto ocupará 10 bytes.
+
+Por lo tanto, cada conjunto de datos requiere:
+
+4 bytes (entero) + 4 bytes (float) + 1 byte (booleano) + 10 bytes (texto) = 19 bytes
+
+La información se almacena cada 10 segundos durante 24 horas. Primero, calculamos cuántas veces se almacena la información en 24 horas:
+
+*   Hay 60 segundos en un minuto y 60 minutos en una hora, entonces hay 3600 segundos en una hora.
+*   En 24 horas, hay 24 horas \* 3600 segundos/hora = 86400 segundos.
+*   Si se almacena cada 10 segundos, entonces se almacena 86400 segundos / 10 segundos/almacenamiento = 8640 almacenamientos.
+
+Finalmente, calculamos el espacio total requerido:
+
+8640 almacenamientos \* 19 bytes/almacenamiento = 164160 bytes
+
+Para expresar esto en kilobytes (KB), dividimos por 1024:
+
+164160 bytes / 1024 bytes/KB = 160.3125 KB
+
+Para expresar esto en megabytes (MB), dividimos por 1024^2:
+
+164160 bytes / 1048576 bytes/MB = 0.1565 MB
+
+**Resultado Final:** Se requieren aproximadamente 164160 bytes, 160.3125 KB, o 0.1565 MB para almacenar estos datos.
+
+![alt text](</images/memoria-ram.png>)
+
+6.  **Conclusión**
+
+Esta actividad me ha demostrado cómo diferentes tipos de datos consumen distintas cantidades de memoria, y cómo la frecuencia con la que se almacenan esos datos impacta significativamente en el espacio total requerido. Aprendí que es crucial considerar el tipo de dato más eficiente para cada variable y la frecuencia de almacenamiento, especialmente cuando se trabaja con grandes volúmenes de información, ya que esto puede influir en la eficiencia y el rendimiento del programa. Además, comprendí mejor cómo las computadoras representan internamente la información utilizando bytes, kilobytes y otras unidades de medida.
+
+![alt text](</images/cerebro.png>)
 
 # Símbolos usados en programación:
 
